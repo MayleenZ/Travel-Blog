@@ -1,0 +1,43 @@
+body {
+  font-family: monospace;
+  background: #C09f80;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+#mrt{
+  color: #565656;
+}
+
+#title{
+  font-size:40px;
+  font-family: monospace;
+  color:white;
+}
+
+.country{
+  font-family: monospace;
+  background: #76323F;
+  color: white;
+  text-align: left;
+  font-size:20px;
+}
+
+
+a:hover {
+  color:pink;
+}
+
+.text {
+  background-color: tan;
+  pading: 40px;
+  color:white;
+  border-style: solid;
+}
+
+button {
+  font-family: monospace;
+  color: black;
+  border: solid white;
+}
