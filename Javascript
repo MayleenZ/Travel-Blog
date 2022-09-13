@@ -1,0 +1,13 @@
+
+// taking user back to top ; behavior takes user on smooth journey up
+// top:0 attribute to the behavior
+const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'});
+
+//the constant for btn=button , starts with index 0 and +1 for each click, function will be onclick and colors will follow index 
+const btn = document.getElementById('btn');
+let index = 0;
+const colors = ['pink', 'brown', 'green', 'maroon'];
+btn.addEventListener('click', function onClick() {
+  btn.style.backgroundColor = colors[index];
+  index = index >= colors.length - 1 ? 0 : index + 1;
+});
